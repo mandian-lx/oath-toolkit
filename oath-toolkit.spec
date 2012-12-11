@@ -91,3 +91,11 @@ make check
 %dir %{_datadir}/gtk-doc/html/liboath
 %doc %{_datadir}/gtk-doc/html/liboath/*
 
+
+
+%changelog
+* Thu May 05 2011 Dimitri Teleguin <mitya@mandriva.org> 1.8.2-1mdv2011.0
++ Revision: 668019
+- import oath-toolkit
+
+
