@@ -4,7 +4,7 @@
 
 Name:		oath-toolkit
 Version:	1.8.2
-Release:	%mkrel 1
+Release:	2
 License:	GPLv3
 Summary:	OATH Toolkit is a software toolkit for using HOTP/TOTP schemes
 URL:		http://www.nongnu.org/oath-toolkit
@@ -13,9 +13,9 @@ Source:		http://download.savannah.nongnu.org/releases/oath-toolkit/oath-toolkit-
 BuildRequires:	pam-devel pkgconfig
 
 %description
-The OATH Toolkit contains a shared library, a command line tool and a PAM module
-that makes it possible to implement one-time password authentication systems.
-Supported technologies include the event-based HOTP algorithm and the
+The OATH Toolkit contains a shared library, a command line tool and a PAM
+module that makes it possible to implement one-time password authentication
+systems. Supported technologies include the event-based HOTP algorithm and the
 time-based TOTP algorithm. OATH stands for Open AuTHentication, a community
 behind the specification. Please see RFC 4226 for further information.
 
