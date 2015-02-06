@@ -4,7 +4,7 @@
 
 Name:		oath-toolkit
 Version:	1.8.2
-Release:	2
+Release:	3
 License:	GPLv3
 Summary:	OATH Toolkit is a software toolkit for using HOTP/TOTP schemes
 URL:		http://www.nongnu.org/oath-toolkit
