@@ -109,7 +109,6 @@ The components included in the toolkit are:
 This package contains the library for OATH handling.
 
 %files -n %{oathlibname}
-%dir %config(noreplace) %{_sysconfdir}/liboath
 %{_libdir}/liboath.so.%{major}*
 %{_mandir}/man3/oath_*.3.*
 %doc liboath/COPYING
@@ -136,7 +135,7 @@ Headers, development and documentation for libpoath.
 #----------------------------------------------------------------------------
 
 %package -n %{pskclibname}
-Summary:	A library for PSKC handling.
+Summary:	A library for PSKC handling
 License:	LGPLv2.1+
 Group:		System/Libraries
 
@@ -199,9 +198,6 @@ make
 
 %install
 %makeinstall_std
-
-# liboath config diractory
-install -dm 0600 %{buildroot}%{_sysconfdir}/liboath
 
 %check
 %make check
