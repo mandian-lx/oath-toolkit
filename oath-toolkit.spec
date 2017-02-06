@@ -192,7 +192,7 @@ Headers, development and documentation for libpskc.
 %setup -q
 
 %build
-%configure --with-pam-dir=%{_libdir}/security
+%configure --with-pam-dir=%{_libdir}/security --disable-static
 #NOTE: parallel may break compilation
 make
 
